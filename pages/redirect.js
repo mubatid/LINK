@@ -1,7 +1,7 @@
 const path = window.location.pathname.split('/').pop();
 if (shortlinks[path]) {
   const targetUrl = shortlinks[path];
-  document.getElementById("manual-link").href = targetUrl;
+  document.getElementById("https://s.shopee.co.id/9zkwXh2Vlc").href = targetUrl;
   setTimeout(() => {
     window.location.href = targetUrl;
   }, 3000); // 3 detik delay
